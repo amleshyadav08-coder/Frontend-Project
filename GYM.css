@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0%0px;
+    font-family: Arial;
+}
+
+body {
+    background-color: #dad7cd;
+}
+
+header {
+    background-color: #343a40;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 100px;
+    font-style: italic;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 100px;
+}
+
+.image img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+.text h1 {
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.text p {
+    font-size: 50px;
+    font-style: oblique;
+}
+
+button {
+    width: 200px;
+    padding: 15px 20px;
+    font-size: 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 10px grey;
+    margin-top: 20px;
+
+}
+
+.text button:hover {
+    background-color: blue;
+}
+
+.Services h1 {
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+.ser-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.items {
+    width: 150px;
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.pricing h1 {
+    font-size: 70px;
+    font-style: italic;
+    color: black;
+
+}
+
+.pricing p {
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 60px;
+    font-style: oblique;
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}

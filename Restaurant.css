@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+body {
+
+    background-image: url("restaurant bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.00001);
+}
+
+header {
+    width: 100%;
+    background-color: #473335;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 100px;
+}
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: none;
+    border-radius: 50%;
+    /* padding-top: 20px; */
+
+
+}
+
+.text h1 {
+    padding: 20px 0px;
+    font-size: 60px;
+    color: lightgray;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text p {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: pink;
+}
+
+button {
+    width: 200px;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #03045e;
+    cursor: pointer;
+    margin: 20px;
+    font-style: italic;
+    color: aliceblue;
+    transition-duration: 1s;
+}
+
+button:hover {
+    background-color: green;
+}
+
+
+.popular h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.items img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Reviews {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Reviews h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: wheat;
+}
+
+.Reviews-card {
+    background: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.Reviews-card h3 {
+    font-size: 70px;
+    font-style: oblique;
+    color: beige;
+
+
+}
+
+.Reviews-card p {
+    font-size: 40px;
+    font-style: oblique;
+    color: yellow;
+
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: wheat;
+}
+
+.contact p {
+    font-size: 50px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30px;
+}
